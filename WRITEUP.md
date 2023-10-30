@@ -25,7 +25,11 @@
 - Decision: App Service
 
 # Justify
-An App Service is a PaaS offering meaning that you just have to deploy your code and not worry about the underlying infrastructure. The application is designed to be cloud native removing the need for server management and optimization. It also has good pricing tiers and gives adequate room for scalability. Another caveat is the wide range of deployment options available that can easily be integrated into a production workflow
+- An App Service is a PaaS offering meaning that you just have to deploy your code and not worry about the underlying infrastructure. 
+- The application is designed to be cloud native removing the need for server management and optimization. It also has good pricing tiers and gives adequate room for scalability. 
+- Another caveat is the wide range of deployment options available that can easily be integrated into a production workflow
 
 # Assess app changes that would change your decision.
-App Service's are limited 14 GB of Memory and 4 VCPUs. If the application were to be a high compute application the need to extend hardware requirements would call for a Virtual Machine. A need to utilize custom monitoring and logging solutions could also necessitate a shift to VMs. Also if the application has dependencies to specific softwares on a server then a VM would be more suitable.
+- App Service's are limited 14 GB of Memory and 4 VCPUs. 
+- If the application were to be a high compute application the need to extend hardware requirements would call for a Virtual Machine. 
+- A need to utilize custom monitoring and logging solutions could also necessitate a shift to VMs. Also if the application has dependencies to specific softwares on a server then a VM would be more suitable.
