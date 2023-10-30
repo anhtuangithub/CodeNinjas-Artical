@@ -16,7 +16,7 @@ class Config(object):
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + '@' + SQL_SERVER + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE  + '?driver=ODBC+Driver+17+for+SQL+Server'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-
+    print(SQLALCHEMY_DATABASE_URI)
     ### Info for MS Authentication ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
     CLIENT_SECRET =  os.environ.get('CLIENT_SECRET') or "tJV8Q~hh1vXuGwSZcDyRKExSmHqM2fbW.UvKYaPn"
